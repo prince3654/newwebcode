@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text auto typing effect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> <span class="auto-type"></span></h1>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+
+        var typed = new Typed(".auto-type",{
+        strings:["I am hungry","Give me food ","Yummy food"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+
+        })
+   
+   
+   </script>
+</body>
+</html>
